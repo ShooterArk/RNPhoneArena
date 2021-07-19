@@ -8,7 +8,8 @@ A react native application to show phone models.
 
 # Detox testing
 Run the command to validate the tests.
-	1. detox test --configuration android
+
+	detox test --configuration android
 
 # Demo app url
 	https://drive.google.com/file/d/1P3P2Pz5BUizs9a2Beo7lQjOE_WDGddC8/view?usp=sharing
