@@ -1,2 +1,7 @@
 # RNPhoneArena
-React native application
+A react native application to show phone models.
+
+# How to run the app
+	1. download the code.
+  2. run npm install in the root folder to install the node_modules
+  3. execute react-native run-android
