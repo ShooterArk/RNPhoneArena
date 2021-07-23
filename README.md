@@ -24,6 +24,6 @@ Once detox configuration is complete, run the command to validate the tests.
 
 ### Demo app url
 I have created an apk and uploaded it here. You can download and checkout the application.
-https://drive.google.com/file/d/1kfIgwN12oDfsXGaXTLIHNZXkbVkWzrwz/view?usp=sharing
+https://drive.google.com/file/d/1RuGVX7sMLH-64ExDVeSPlRBhoMV5LLOk/view?usp=sharing
 
 That's it, please contact me if you want to be a contributor. 
