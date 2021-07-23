@@ -8,28 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* phoneArenaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* phoneArenaTests.m */; };
-		040C3847BCDD402CA2A56AFE /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB4A56BF4D304128A3E754D0 /* Feather.ttf */; };
-		0494E7667D164280B6DEBF73 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 021F34D1750745439ECB574F /* SimpleLineIcons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		157B33CE38624D72838B8571 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C61F30492C4A442CA57DA9ED /* FontAwesome.ttf */; };
 		15C60A6A3715263D81C9A62E /* libPods-phoneArena-phoneArenaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B46E197A7F290983CA41CDA /* libPods-phoneArena-phoneArenaTests.a */; };
-		352C1E475D23442B8B68D50D /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B7819B0B12F48A4975A1F10 /* Foundation.ttf */; };
-		4AAA06F6B5B4462188C71470 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FEE45CA1344428B010E65 /* EvilIcons.ttf */; };
-		4B96FA86D0354F24AC1CD018 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2470EABB924C475FA286065D /* Zocial.ttf */; };
-		517C639CDC374FDF90AAF754 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F80C7D057ED4432EBF9B9592 /* AntDesign.ttf */; };
-		5C6E735ADEBE4537BEDC64E4 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9056E29F3DA44F238784F259 /* FontAwesome5_Brands.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9AFD18F820FC42EB85C49A3D /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D38F88485624F0997859D92 /* FontAwesome5_Regular.ttf */; };
-		BAB1442A9D194BC6AD37DA3B /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2419C06D43A04F2C8ADB784C /* FontAwesome5_Solid.ttf */; };
 		C5690F7CD7D39FC90AD61852 /* libPods-phoneArena.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2158E421A561A726F9352038 /* libPods-phoneArena.a */; };
-		C987BB5FFC1A4519868BF2BC /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1DF99689ACE487BA27C615B /* Fontisto.ttf */; };
-		D65D89B8B07D4AB0A966D3C3 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67EB78C63FB2454780B369A4 /* Entypo.ttf */; };
-		D68E6ACD33FF4F7490868848 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB9E6FD5214487389165858 /* MaterialCommunityIcons.ttf */; };
-		E7CA20F0D0504B0496A64AA3 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2939B3CAB5514226951AC599 /* MaterialIcons.ttf */; };
-		EA32FDD99C0649F9BC4139F8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C764203BF9F5435389A08583 /* Ionicons.ttf */; };
-		FA3906E77F1A4488A75A9A50 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6501981E6394BE786A5C61D /* Octicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -300,22 +284,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				517C639CDC374FDF90AAF754 /* AntDesign.ttf in Resources */,
-				D65D89B8B07D4AB0A966D3C3 /* Entypo.ttf in Resources */,
-				4AAA06F6B5B4462188C71470 /* EvilIcons.ttf in Resources */,
-				040C3847BCDD402CA2A56AFE /* Feather.ttf in Resources */,
-				157B33CE38624D72838B8571 /* FontAwesome.ttf in Resources */,
-				5C6E735ADEBE4537BEDC64E4 /* FontAwesome5_Brands.ttf in Resources */,
-				9AFD18F820FC42EB85C49A3D /* FontAwesome5_Regular.ttf in Resources */,
-				BAB1442A9D194BC6AD37DA3B /* FontAwesome5_Solid.ttf in Resources */,
-				C987BB5FFC1A4519868BF2BC /* Fontisto.ttf in Resources */,
-				352C1E475D23442B8B68D50D /* Foundation.ttf in Resources */,
-				EA32FDD99C0649F9BC4139F8 /* Ionicons.ttf in Resources */,
-				D68E6ACD33FF4F7490868848 /* MaterialCommunityIcons.ttf in Resources */,
-				E7CA20F0D0504B0496A64AA3 /* MaterialIcons.ttf in Resources */,
-				FA3906E77F1A4488A75A9A50 /* Octicons.ttf in Resources */,
-				0494E7667D164280B6DEBF73 /* SimpleLineIcons.ttf in Resources */,
-				4B96FA86D0354F24AC1CD018 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HA4H76T6RV;
+				DEVELOPMENT_TEAM = D7ST7S7WRX;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = phoneArena/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -568,7 +536,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deltacron.-";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yawar.phonearena;
 				PRODUCT_NAME = phoneArena;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -583,7 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HA4H76T6RV;
+				DEVELOPMENT_TEAM = D7ST7S7WRX;
 				INFOPLIST_FILE = phoneArena/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -594,7 +562,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deltacron.-";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yawar.phonearena;
 				PRODUCT_NAME = phoneArena;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
