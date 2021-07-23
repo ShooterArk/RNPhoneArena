@@ -1,5 +1,5 @@
-# RNPhoneArena
-A react native application to show phone models.
+# Phone Arena
+A react native application to show phone models and their details such as price, description, color, ram and manufacturer.
 
 # How to run the app
 	1. download the code.
