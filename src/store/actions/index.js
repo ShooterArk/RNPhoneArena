@@ -1,10 +1,9 @@
 import { storePhones } from "../../common/strings";
-
-const url = "http://192.168.10.9:3000/phones";
+import config from "../../config";
 
 export const fetchPhoneRecords = (dispatch) => {
     try{
-        fetch(url, {
+        fetch(`${config.api.catalogue}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
