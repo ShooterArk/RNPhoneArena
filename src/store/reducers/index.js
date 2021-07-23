@@ -1,4 +1,4 @@
-import { onFailed, pendingStatus, selectedPhones, storePhones } from "../../common/strings"
+import { clearSelectedPhone, onFailed, pendingStatus, selectedPhones, storePhones } from "../../common/strings"
 
 const initialState = {
     phones: null,
@@ -34,6 +34,11 @@ export default (state = initialState, action) => {
             return {
                 ...state,
                 selectedPhone: action.payload 
+            }
+        case clearSelectedPhone:
+            return {
+                ...state,
+                selectedPhone: null
             }
     }
 }

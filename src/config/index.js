@@ -8,7 +8,7 @@ config.api = {};
 config.api.catalogue = `${config.baseUrl}/phones`
 
 // assets
-config.images = `${config.baseUrl}/img`
+config.images = `${config.baseUrl}/images`
 
 
 export default config;

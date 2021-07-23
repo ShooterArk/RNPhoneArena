@@ -18,13 +18,21 @@ const Phones = (props) => {
         fetchPhoneRecords(dispatch);
     }, [])
 
-    const onPress = () => {
+    useEffect(() => {
+        if(records){
+            if(records.selectedPhone){
+                props.navigation.navigate("product")
+            }
+            
+        }
+    }, [ records ])
+
+    const onPress = (item) => {
         try{
             dispatch({
                 type: selectedPhones,
                 payload: item
             })
-            props.navigation.navigate("product")
         }
         catch(err){
             console.log("Error in onPress of catalogue item", err);
