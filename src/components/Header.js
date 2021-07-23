@@ -7,16 +7,17 @@ import { ICON_SIZE } from '../common/size';
 import headerStyle from '../styles/headerStyle';
 
 const Header = (props) => {
+    const { testID, title, hasBackButton, onBackPress } = props;
     return (
-        <View style={headerStyle.container}>
+        <View testID={testID} style={headerStyle.container}>
             {
-                props.hasBackButton && (
-                    <TouchableOpacity style={headerStyle.backButton} onPress={props.onBackPress}>
+                hasBackButton && (
+                    <TouchableOpacity style={headerStyle.backButton} onPress={onBackPress}>
                         <Icon name="chevron-left" color={secondaryColor} size={ICON_SIZE} />
                     </TouchableOpacity>
                 )
             }
-            <Text style={headerStyle.title}>{props.title}</Text>
+            <Text style={headerStyle.title}>{title}</Text>
         </View>
     )
 }

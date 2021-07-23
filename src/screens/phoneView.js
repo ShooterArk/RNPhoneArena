@@ -21,7 +21,7 @@ const PhoneView = (props) => {
 
     return (
         <ScrollView testID="phoneView">
-            <Header title={""} hasBackButton={true} onBackPress={onBackPress} />
+            <Header testID={"phoneViewBack"} title={""} hasBackButton={true} onBackPress={onBackPress} />
             <View style={{padding: 20}}>
                 <View style={phoneViewStyle.imageContainer}>
                     <Image source={{uri: `${config.images}/${selectedItem.selectedPhone.imageFileName}`}} style={phoneViewStyle.image} />

@@ -9,7 +9,7 @@ import phoneitemStyle from '../styles/phoneitemStyle';
 const PhoneItem = (props) => {
     const { data, onPress } = props;
     return (
-            <TouchableOpacity testID={"itemClicked"+data.id}
+            <TouchableOpacity testID={"product"+data.id}
                 onPress={() => onPress(data)}
                 style={phoneitemStyle.container}
             >

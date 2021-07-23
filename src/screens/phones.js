@@ -41,7 +41,7 @@ const Phones = (props) => {
 
     return (
         <View style={phoneStyle.container}>
-            <Header title={"Catalogue"} />
+            <Header testID={"mainHeader"} title={"Catalogue"} />
             {
                 records ? 
                 <FlatList
