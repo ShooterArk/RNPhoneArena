@@ -10,7 +10,8 @@ A react native application to show phone models and their details such as price,
 ### How to run the app
 1.	Clone the git repository git clone git@github.com:ShooterArk/RNPhoneArena.git.
 2.	Run npm install to install node_modules.
-3.	To run the application, execute command <i>react-native run-android</i>
+3.	For android, to run the application, execute command <i>react-native run-android</i>
+4.	For ios, you first need to execute <b>pod install</b> and then execute command <i>react-native run-ios</i> or you can
 
 ### Testing
 For testing purpose, we are using detox. If you have installed detox-cli (as mentioned in prerequisites) then you need to follow the detox documentation (https://github.com/wix/Detox/blob/master/docs/Introduction.GettingStarted.md) to complete the configuration.
