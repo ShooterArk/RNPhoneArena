@@ -1,41 +1,25 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { secondaryColor } from '../common/colors';
+import { ICON_SIZE } from '../common/size';
+import headerStyle from '../styles/headerStyle';
 
 const Header = (props) => {
     return (
-        <View style={styles.header}>
+        <View style={headerStyle.container}>
             {
                 props.hasBackButton && (
-                    <TouchableOpacity style={styles.backButton} onPress={props.onBackPress}>
-                        <Icon name="chevron-left" color="black" size={30} />
+                    <TouchableOpacity style={headerStyle.backButton} onPress={props.onBackPress}>
+                        <Icon name="chevron-left" color={secondaryColor} size={ICON_SIZE} />
                     </TouchableOpacity>
                 )
             }
-            <Text style={styles.title}>{props.title}</Text>
+            <Text style={headerStyle.title}>{props.title}</Text>
         </View>
     )
 }
 
-const styles = StyleSheet.create({
-    header: {
-        flexDirection: 'row',
-        alignItems:'center',
-        height: 60,
-        borderBottomColor: 'lightgray',
-        borderBottomWidth: 1
-    },
-    title: {
-        color: "blue",
-        fontSize: 18,
-        textAlign:'center',
-        zIndex: 1, marginLeft: 20
-    },
-    backButton: {
-        padding: 10,
-        zIndex: 2
-    }
-})
 
 export default Header;

@@ -3,7 +3,7 @@ import { onFailed, pendingStatus, selectedPhones, storePhones } from "../../comm
 const initialState = {
     phones: null,
     selectedPhone: null,
-    pending: false,
+    pending: true,
     failed: false,
     error: null
 }

@@ -6,6 +6,8 @@ import { selectedPhones } from '../common/strings';
 import Header from '../components/Header';
 import { fetchPhoneRecords } from '../store/actions';
 import PhoneItem from '../components/PhoneItem';
+import Loader from '../components/Loader';
+import phoneStyle from '../styles/phoneStyle';
 
 const Phones = (props) => {
 
@@ -30,8 +32,8 @@ const Phones = (props) => {
     }
 
     return (
-        <View style={{flex: 1}}>
-            <Header title={"catalogue"} />
+        <View style={phoneStyle.container}>
+            <Header title={"Catalogue"} />
             {
                 records ? 
                 <FlatList
@@ -42,11 +44,7 @@ const Phones = (props) => {
                         return <PhoneItem data={item} onPress={onPress} />
                     }} 
                 />
-                :
-                <View style={{flex: 1, justifyContent:'center', alignItems:'center'}}>
-                    <ActivityIndicator size={"large"} color="blue" />
-                    <Text>Loading Catelog</Text>
-                </View>
+                : <Loader />
             }
         </View>
     )
